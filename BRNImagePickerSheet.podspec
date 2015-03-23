@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author       = "Laurin Brandner"
     s.source       = { :git => git_url, :tag => version }
-    s.source_files  = "BRNImagePickerSheet/*"
+    s.source_files  = "BRNImagePickerSheet/BRNImagePickerSheet/*"
     s.requires_arc = true
     s.framework  = "Photos"
  
